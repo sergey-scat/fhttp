@@ -37,14 +37,14 @@ import (
 	"testing/iotest"
 	"time"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/sergey-scat/utls"
 
-	. "github.com/bogdanfinn/fhttp"
-	"github.com/bogdanfinn/fhttp/httptest"
-	"github.com/bogdanfinn/fhttp/httptrace"
-	"github.com/bogdanfinn/fhttp/httputil"
-	"github.com/bogdanfinn/fhttp/internal"
-	"github.com/bogdanfinn/fhttp/internal/nettrace"
+	. "github.com/sergey-scat/fhttp"
+	"github.com/sergey-scat/fhttp/httptest"
+	"github.com/sergey-scat/fhttp/httptrace"
+	"github.com/sergey-scat/fhttp/httputil"
+	"github.com/sergey-scat/fhttp/internal"
+	"github.com/sergey-scat/fhttp/internal/nettrace"
 
 	"golang.org/x/net/http/httpguts"
 )

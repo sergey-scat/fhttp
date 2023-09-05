@@ -33,9 +33,9 @@ import (
 
 	"github.com/andybalholm/brotli"
 
-	tls "github.com/bogdanfinn/utls"
+	tls "github.com/sergey-scat/utls"
 
-	"github.com/bogdanfinn/fhttp/httptrace"
+	"github.com/sergey-scat/fhttp/httptrace"
 
 	"golang.org/x/net/http/httpguts"
 	"golang.org/x/net/http/httpproxy"
